@@ -35,15 +35,26 @@ body {
 .card {
     width: 930px;
     height: 500px;
-    background-color: white;
+    
     display: grid;
     grid-template-columns: 2fr 1fr;
     border-radius: 10px;
     overflow: hidden;
     margin: auto;
+    margin-top: 25px;
 }
 #K-color {
-    background-color: #6eb2d4;
+    background: linear-gradient(#6eb2d4, #94bf10) ;
+    
+}
+#S-color {
+    background: linear-gradient(#2728e5, #fffd25);
+}
+#D-color {
+    background: linear-gradient(#474338, #0e0507);
+}
+#platform-color {
+    color: #fe6a01;
 }
 
 /* LEFT SIDE */
@@ -81,4 +92,20 @@ body {
 .summary, .platform {
     font-size: 20px;
     justify-content: center;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: rgb(56, 56, 56);
+    margin-top: 50px;
+    color: rgb(128, 128, 21);
+}
+.summary {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.platform {
+    font-family: Arial, Helvetica, sans-serif;
 }
