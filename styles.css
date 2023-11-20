@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(40, 27, 43);
+    
+    
+}
+@font-face {
+    font-family: "SuperBrigade";
+    src: url(/fonts/SuperBrigade.otf);
+}
+
+
+/* HEADER STUFF */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    
+}
+.title {
+    font-size: 60px;
+    color: rgb(207, 207, 37);
+    font-weight: bold;
+    font-family: "SuperBrigade";
+}
+.subtitle {
+    font-size: 20px;
+    color: rgb(128, 128, 21);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 6px;
+}
+
+/* CARD STUFF */
+.card {
+    width: 930px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+#K-color {
+    background-color: #6eb2d4;
+}
+
+/* LEFT SIDE */
+.left {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.left img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* RIGHT SIDE */
+.right {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.card-title {
+    font-size: 35px;
+}
+.card-title img {
+    width: 65%;
+}
+.summary, .platform {
+    font-size: 20px;
+    justify-content: center;
+}
