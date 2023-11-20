@@ -5,7 +5,7 @@ body {
 }
 @font-face {
     font-family: "SuperBrigade";
-    src: url(/fonts/SuperBrigade.otf);
+    src: url(./fonts/SuperBrigade.otf);
 }
 
 
